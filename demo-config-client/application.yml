@@ -1,0 +1,4 @@
+message: "demo config client hello world"
+
+server:
+  port: 8080
