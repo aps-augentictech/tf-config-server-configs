@@ -4,5 +4,5 @@ server:
   port: 3001
 
 imtMessages:
-  "Caducada condicionalmente": "mdl.generation.error.imt.caducadaCond"
-  "Caducada": "mdl.generation.error.imt.caducada"
+  "[Caducada condicionalmente]": "mdl.generation.error.imt.caducadaCond"
+  "[Caducada]": "mdl.generation.error.imt.caducada"
