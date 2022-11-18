@@ -1,1 +1,38 @@
 message: "hello-world"
+
+management:
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
+      probes:
+        enabled: true
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+    loggers:
+      enabled: true
+    sessions:
+      enabled: true
+    security:
+      enabled: true
+    liquibase:
+      enabled: true
+    refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - prometheus
+          - info
+          - metrics
+          - sessions
+          - loggers
+          - security
+          - liquibase
+          - refresh
