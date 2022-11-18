@@ -1,4 +1,4 @@
 server:
   port: 3003
 
-message1: "[DEV] demo config client hello world DOS is the best in the world"
+message: "[DEV] demo config client hello world DOS is the best in the world"
