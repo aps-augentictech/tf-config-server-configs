@@ -1,4 +1,4 @@
 server:
   port: 3001
 
-message: "[PRD] demo config client hello world"
+message1: "[PRD] demo config client hello world"
